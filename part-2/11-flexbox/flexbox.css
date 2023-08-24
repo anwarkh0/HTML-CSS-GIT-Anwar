@@ -1,1 +1,14 @@
 /* Add your own CSS code below */
+.countries--first {
+  flex-direction: row-reverse;
+}
+.countries--second {
+  flex-direction: column;
+}
+.countries--third {
+  flex-direction: column-reverse;
+}
+.countries {
+  display: flex;
+  width: 550px;
+}
